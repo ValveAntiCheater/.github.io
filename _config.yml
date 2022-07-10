@@ -25,13 +25,13 @@ social:
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
   title:       "Keep Austin Hacking | 21/22 November 2022"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
+  description: "Hackathon website for the Keep Austin Hacking hackathon"
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
 event:
   name:        "Keep Austin Hacking"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
+  description: "Keep Austin Hacking is a 48-hour hackathon aimed at bringing together people interested in creating fun and exciting inventions"
   date:        "21 & 22 November 2022"
   location:    "Austin, TX, United States"
 
@@ -51,9 +51,8 @@ event:
 
   about:
     description: >
-      Example Hacks is a hackathon hosted at The University of Example.
-      This is your opportunity to describe your event, what to expect, where it is & anything unique to your event.
-      Keep it straightforward, don't make it too long.
+      Keep Austin Hacking is a hackathon hosted at Westwood High School.
+      The goal of Keep Austin Hacking is to bring together students grade 6-12 who are interested in creating new and exciting projects.
 
   # Info Sections
   info:
@@ -61,15 +60,15 @@ event:
       - image: "images/image1.png"
         title: "LEARN."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Learn new coding skills, colloborate with others, and have a good time!
       - image: "images/image2.png"
         title: "BUILD."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Create projects that address real-world issues
       - image: "images/image3.png"
         title: "SHARE."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Showcase and showoff your creation to everyone else!
 
   # Frequently asked questions.
   faq:
@@ -82,11 +81,10 @@ event:
         Nothing. Attending a hackathon is free.
     - question: "Do I need to be a student to attend?"
       answer: >
-        Yes. Only students who are currently enrolled at a college/university or
-        have graduated within the past 12 months are eligible to attend.
+        Yes. Only students grade 6-12 may attend.
     - question: "Where is the event?"
       answer: >
-        The event is being hosted at [insert venue location here].
+        The event is being hosted at Westwood High School, Austin, TX.
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
