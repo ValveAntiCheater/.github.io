@@ -12,7 +12,7 @@ url: "https://ValveAntiCheater.github.io"
 
 # The ability to use custom themes.
 style:
-  theme: "cayman"
+  theme: "original"
 
 # This will help you track who's visiting your website.
 tracking:
