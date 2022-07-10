@@ -31,7 +31,7 @@ seo:
 # Event information.
 event:
   name:        "Keep Austin Hacking"
-  description: "Keep Austin Hacking is a 48-hour hackathon aimed at bringing together people interested in creating fun and exciting inventions"
+  description: "Keep Austin Hacking is a 48-hour hackathon aimed at bringing students together"
   date:        "21 & 22 November 2022"
   location:    "Austin, TX, United States"
 
@@ -52,7 +52,7 @@ event:
   about:
     description: >
       Keep Austin Hacking is a hackathon hosted at Westwood High School.
-      The goal of Keep Austin Hacking is to bring together students grade 6-12 who are interested in creating new and exciting projects.
+      The goal of Keep Austin Hacking is to bring together students grade 6-12 who are interested in creating new and exciting projects!
 
   # Info Sections
   info:
