@@ -20,19 +20,19 @@ tracking:
 
 # Let people connect & engage with you through social media.
 social:
-  twitter_handle: "MLHacks"
+  twitter_handle: "atx_hacks"
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "Keep Austin Hacking | 21/22 November 2022"
+  title:       "Keep Austin Hacking | 19/20 November 2022"
   description: "Hackathon website for the Keep Austin Hacking hackathon"
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
 event:
   name:        "Keep Austin Hacking"
-  description: "Keep Austin Hacking is a 48-hour hackathon aimed at bringing students together"
-  date:        "21 & 22 November 2022"
+  description: "Keep Austin Hacking is a 24-hour hackathon aimed at bringing students together"
+  date:        "19 & 20 November 2022"
   location:    "Austin, TX, United States"
 
   trust_badge:
