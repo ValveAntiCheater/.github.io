@@ -241,14 +241,23 @@ section {
 
 .prospectus {
   margin: auto;
+  border-color: red;
+  border-style: solid;
+  border-width: 30px;
 }
 
 iframe {
   margin: auto;
+  border-color: red;
+  border-style: solid;
+  border-width: 30px;
 }
 
 .prospectus iframe {
   margin: auto;
+  border-color: red;
+  border-style: solid;
+  border-width: 30px;
 }
 
 @media(max-width: 768px) {
