@@ -242,7 +242,7 @@ section {
 .prospectus iframe {
   width: 95%;
   margin-top: 50px;
-  margin: auto;
+  margin-left: auto;
 }
 
 .p-container {
