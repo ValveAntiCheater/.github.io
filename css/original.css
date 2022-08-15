@@ -269,6 +269,7 @@ section {
   padding: 10px 70px;
   text-decoration: none;
   text-transform: uppercase;
+  transition: all 0.2s ease;
 }
 
 .button a:hover,
