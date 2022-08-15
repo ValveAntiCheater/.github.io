@@ -99,6 +99,8 @@ event:
     message: >
       You'll receive more information closer to the hackathon.
 
+  prospectus: "files/KAHSponsorPacker2022.pdf"
+
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --
 # ----------------------------------------------------
