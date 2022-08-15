@@ -252,6 +252,9 @@ section {
   margin: auto;
   justify-content: center;
 }
+.button {
+  margin: 40px 0
+}
 
 .button a {
   background: #fff;
