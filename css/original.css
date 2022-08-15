@@ -252,6 +252,7 @@ section {
   margin: auto;
   justify-content: center;
 }
+
 .button {
   margin: 40px 0
 }
@@ -277,6 +278,10 @@ section {
   transition: all 0.2s ease;
 }
 
+.buttons a:not(:last-child) {
+  margin-right: 10px;
+}
+
 @media(max-width: 768px) {
   .hero .buttons a {
     border-width: 8px;
@@ -292,5 +297,12 @@ section {
   .hero hr {
     border-top-width: 8px;
     top: -8px;
+  }
+
+  .button a {
+    border-width: 8px;
+    font-size: 20px;
+    display: block;
+    margin: 5px;
   }
 }
