@@ -239,6 +239,12 @@ section {
   color: #fff;
 }
 
+.prospectus {
+  margin: 0;
+  width: 85%;
+  margin-top: 30px;
+}
+
 @media(max-width: 768px) {
   .hero .buttons a {
     border-width: 8px;
