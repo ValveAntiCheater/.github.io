@@ -270,6 +270,13 @@ section {
   text-transform: uppercase;
 }
 
+.button a:hover,
+.button a:focus {
+  background-color: #0F2C34;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
 @media(max-width: 768px) {
   .hero .buttons a {
     border-width: 8px;
