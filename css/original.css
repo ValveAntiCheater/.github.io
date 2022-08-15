@@ -240,9 +240,11 @@ section {
 }
 
 .prospectus {
-  margin: 0;
-  width: 85%;
-  margin-top: 30px;
+  margin: auto;
+}
+
+iframe {
+  margin: auto;
 }
 
 @media(max-width: 768px) {
