@@ -247,6 +247,10 @@ iframe {
   margin: auto;
 }
 
+.prospectus iframe {
+  margin: auto;
+}
+
 @media(max-width: 768px) {
   .hero .buttons a {
     border-width: 8px;
