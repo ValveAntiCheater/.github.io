@@ -69,7 +69,7 @@ section {
 }
 
 .hero .wrapper h1 {
-  background: #cae0d0;
+  background: #a4deb3;
   background: rgba(255, 255, 255, .3);
   display: inline-block;
   font-size: 60px;
@@ -124,7 +124,7 @@ section {
 
 .about {
   border-width: 15px 0;
-  background-color: #cae0d0;
+  background-color: #a4deb3;
   padding: 130px 0;
   position: relative;
 }
@@ -147,7 +147,7 @@ section {
  */
 
 .info {
-  background-color: #cae0d0;
+  background-color: #a4deb3;
   margin-top: 15px;
   padding: 100px 0;
   position: relative;
@@ -177,7 +177,7 @@ section {
  */
 
 .faq {
-  background-color: #cae0d0;
+  background-color: #a4deb3;
   margin-top: 15px;
   padding: 100px 0;
   position: relative;
