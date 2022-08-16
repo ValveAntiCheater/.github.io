@@ -1,6 +1,6 @@
 <div class="topnav">
     <a class="brand" href="/">Keep Austin Hacking</a>
-    <a href="/">
+    <a class="logo-link" href="/">
         <img src="/images/logo.png" alt="Keep Austin Hacking Logo" class="logo">
     </a>
     <a class="active" href="/">Home</a>
@@ -62,11 +62,17 @@
 .logo {
     width: 55px;
     height: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    top: 50%;
+    margin: 0;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .logo:hover {
+    background-color: #0f2c34
+}
+
+.logo-link:hover {
     background-color: #0f2c34
 }
 </style>
