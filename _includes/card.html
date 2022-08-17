@@ -1,0 +1,32 @@
+<div class="card">
+    <img class="card-img-top" src="{{ include.imgsrc }}" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">{{ include.title }}</h5>
+        <p class="card-text">{{ include.maintext }}</p>
+        <a href="{{ include.btnlink }}" class="btn btn-primary">{{ include.buttontext }}</a>
+    </div>
+</div>
+
+<style>
+    .card {
+        width: 17%;
+        margin: 2rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: #a4deb3;
+        border-radius: 4px;
+        display: inline-block;
+        margin-top: 0;
+    }
+
+    .card .card-img-top {
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+
+    .card .card-body {
+        padding: 1rem;
+        text-align: center;
+    }
+</style>

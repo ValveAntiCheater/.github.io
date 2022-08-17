@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<!--- internal styling bc styling in external css not working for some reason --->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+            <h1>About Us</h1>
+        </div>
+    </div>
+</div>
+<div>
+    <div class="text-center">
+        <p style="font-size: 15px;">
+            Keep Austin Hacking is a student led non-profit organization that aims to provide a platform for students to learn and share knowledge in the field of software development through open semi-competitive settings.
+        </p>
+    </div>
+</div>
+<div class="team-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+                <h2>
+                    Meet the Team
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            {% include card.html imgsrc="./images/placeholder.png" title="Evan Lai" maintext="Lead event organizer. CEO of Keep Austin Hacking" btnlink="#" buttontext="linkedin" %}
+            {% include card.html imgsrc="./images/placeholder.png" title="Jadon Lee" maintext="Lead web developer and head of IT." btnlink="#" buttontext="linkedin" %}
+            {% include card.html imgsrc="./images/placeholder.png" title="Akshay Gaitonde" maintext="Lead financial manager." btnlink="#" buttontext="linkedin" %}
+            {% include card.html imgsrc="./images/placeholder.png" title="Samarth Bikki" maintext="Communications officer and sponsor coordinator." btnlink="#" buttontext="linkedin" %}
+        </div>
+        <div class="row">
+            {% include card.html imgsrc="./images/placeholder.png" title="Nikhil Deveraj" maintext="lorem ipsum dolar sit imit blah blah my name is jadon" btnlink="#" buttontext="linkedin" %}
+            {% include card.html imgsrc="./images/placeholder.png" title="Sanjay" maintext="Communications officer and sponsor coordinator." btnlink="#" buttontext="linkedin" %}
+            {% include card.html imgsrc="./images/placeholder.png" title="Raghav Agarwal" maintext="lorem ipsum dolar sit imit blah blah my name is jadon" btnlink="#" buttontext="linkedin" %}
+            {% include card.html imgsrc="./images/placeholder.png" title="Ishan Dasgupta" maintext="lorem ipsum dolar sit imit blah blah my name is jadon" btnlink="#" buttontext="linkedin" %}
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .container {
+        text-align: center;
+    }
+
+    .team-section {
+        background-color: #a4deb3;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+</style>
