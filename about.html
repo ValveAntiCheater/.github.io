@@ -17,63 +17,29 @@ layout: default
     </div>
 </div>
 <hr />
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-            <h2>
-                Meet the Team
-            </h2>
+<div class="team-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+                <h2>
+                    Meet the Team
+                </h2>
+            </div>
         </div>
     </div>
-</div>
-<div class="container">
-    <div class="row">
-        <!-- <div class="card">
-            <img class="card-img-top" src="/images/placeholder.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+    <div class="container">
+        <div class="row">
+            {% include card.html imgsrc="./images/placeholder.png" title="Evan Lai" maintext="Lead event organizer. CEO of Keep Austin Hacking" btnlink="#" buttontext="linkedin" %}
+            {% include card.html imgsrc="./images/placeholder.png" title="Jadon Lee" maintext="Lead web developer and head of IT." btnlink="#" buttontext="linkedin" %}
+            {% include card.html imgsrc="./images/placeholder.png" title="Akshay Gaitonde" maintext="Lead financial manager." btnlink="#" buttontext="linkedin" %}
+            {% include card.html imgsrc="./images/placeholder.png" title="Samarth Bikki" maintext="Communications officer and sponsor coordinator." btnlink="#" buttontext="linkedin" %}
         </div>
-        <div class="card">
-            <img class="card-img-top" src="/images/placeholder.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+        <div class="row">
+            {% include card.html imgsrc="./images/placeholder.png" title="Nikhil Deveraj" maintext="lorem ipsum dolar sit imit blah blah my name is jadon" btnlink="#" buttontext="linkedin" %}
+            {% include card.html imgsrc="./images/placeholder.png" title="Sanjay" maintext="Communications officer and sponsor coordinator." btnlink="#" buttontext="linkedin" %}
+            {% include card.html imgsrc="./images/placeholder.png" title="Raghav Agarwal" maintext="lorem ipsum dolar sit imit blah blah my name is jadon" btnlink="#" buttontext="linkedin" %}
+            {% include card.html imgsrc="./images/placeholder.png" title="Ishan Dasgupta" maintext="lorem ipsum dolar sit imit blah blah my name is jadon" btnlink="#" buttontext="linkedin" %}
         </div>
-        <div class="card">
-            <img class="card-img-top" src="/images/placeholder.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="/images/placeholder.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="/images/placeholder.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div> -->
-        {% include card.html imgsrc="./images/placeholder.png" title="Jadon Lee" maintext="lorem ipsum dolar sit imit blah blah my name is jadon" btnlink="#" btntext="linkedin" %}
-        {% include card.html imgsrc="./images/placeholder.png" title="Jadon Lee" maintext="lorem ipsum dolar sit imit blah blah my name is jadon" btnlink="#" btntext="linkedin" %}
-        {% include card.html imgsrc="./images/placeholder.png" title="Jadon Lee" maintext="lorem ipsum dolar sit imit blah blah my name is jadon" btnlink="#" btntext="linkedin" %}
-        {% include card.html imgsrc="./images/placeholder.png" title="Jadon Lee" maintext="lorem ipsum dolar sit imit blah blah my name is jadon" btnlink="#" btntext="linkedin" %}
-        {% include card.html imgsrc="./images/placeholder.png" title="Jadon Lee" maintext="lorem ipsum dolar sit imit blah blah my name is jadon" btnlink="#" btntext="linkedin" %}
-
     </div>
 </div>
 
@@ -81,5 +47,12 @@ layout: default
 <style>
     .container {
         text-align: center;
+    }
+
+    .team-section {
+        background-color: #a4deb3;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 </style>
