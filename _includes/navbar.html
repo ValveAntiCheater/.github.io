@@ -1,5 +1,5 @@
 
-<div class="topnav">
+<div id="navigation-bar" class="topnav">
     <a class="brand" href="/">Keep Austin Hacking</a>
     <a class="active" href="/">Home</a>
     <a href="/sponsor">Sponsor</a>
@@ -81,11 +81,24 @@
     cursor: pointer;
     display: none;
 }
+
+.nav-bar.responsive {
+    display: block;
+}
+
 @media screen and (max-width: 850px) {
   .topnav a:not(:first-child) {display: none;}
-  .topnav a:last-child {display: block;}
+  .topnav a:last-child {display: block; float: right;}
   .menu-icon {
     display: block;
   }
 }
 </style>
+
+<script>
+  function onMenuClick() {
+    var navbar = document.getElementById('navigation-bar');
+    var responsive_class_name = 'responsive'
+    navbar.classList.toggle(responsive_class_name)
+}
+</script>
