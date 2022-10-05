@@ -2,6 +2,7 @@
 # -- Settings --
 # --------------
 
+# TODO: add itenerary page/create pdf with itenerary
 # Ignore this. This is only if you're hosting this in a sub-folder.
 # If you're using GitHub pages, they automatically override this with the right value.
 baseurl: ""
